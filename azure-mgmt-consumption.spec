@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-consumption
 Version  : 3.0.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/d5/78/837e19344cbecd7f6d2d52d4c64444128989bba585132267683db72d99f4/azure-mgmt-consumption-3.0.0.zip
 Source0  : https://files.pythonhosted.org/packages/d5/78/837e19344cbecd7f6d2d52d4c64444128989bba585132267683db72d99f4/azure-mgmt-consumption-3.0.0.zip
 Summary  : Microsoft Azure Consumption Client Library for Python
