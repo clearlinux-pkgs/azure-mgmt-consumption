@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-consumption
 Version  : 3.0.0
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/d5/78/837e19344cbecd7f6d2d52d4c64444128989bba585132267683db72d99f4/azure-mgmt-consumption-3.0.0.zip
 Source0  : https://files.pythonhosted.org/packages/d5/78/837e19344cbecd7f6d2d52d4c64444128989bba585132267683db72d99f4/azure-mgmt-consumption-3.0.0.zip
 Summary  : Microsoft Azure Consumption Client Library for Python
@@ -83,8 +83,8 @@ echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
 ## Remove excluded files
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/mgmt/__init__.py
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/mgmt/__pycache__/__init__.cpython-38.pyc
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/mgmt/__init__.py
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/mgmt/__pycache__/__init__.cpython-3*.pyc
 
 %files
 %defattr(-,root,root,-)
